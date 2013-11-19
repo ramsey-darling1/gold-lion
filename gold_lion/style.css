@@ -1,5 +1,5 @@
 /*
-Theme Name: goldlion
+Theme Name: gold_lion
 Theme URI: http://vcwebdesign.com/
 Author: Ramsey Darling
 Author URI: http://vcwebdesign.com/
@@ -7,7 +7,7 @@ Description: This theme was taken from the _s wordpress theme, and is to be used
 Version: 0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: goldlion
+Text Domain: gold_lion
 Domain Path: /languages/
 Tags:
 
@@ -15,6 +15,30 @@ Tags:
 
 
 @import url("css/original.css");
+
+/**
+ *here we could import other css libraries, such as bootstrap or some purecss.ico modules.
+ *whatever we like
+ **/
+
+
+.left, .alignleft {float: left;}
+.right, .alignright {float:right;}
+.brick {clear: both;}
+.hide {visibility: hidden;}
+.dissapear {display: none;}
+.show {visibility: visible;}
+.appear {display: inline-block;}
+.center_txt {text-align: center;}
+.center {margin: 0 auto;}
+.fit_width {max-width: 1024px;}
+.paddit {padding: 1rem;}
+.pushit {margin:1rem;}
+.inline {display: inline;}
+.block {display: block;}
+.relative {position: relative;}
+.absolute {position: absolute;}
+.rounded {border-radius: .5rem;}
 
 
 /*link styles*/
