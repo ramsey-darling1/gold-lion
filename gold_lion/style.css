@@ -1,0 +1,29 @@
+/*
+Theme Name: goldlion
+Theme URI: http://vcwebdesign.com/
+Author: Ramsey Darling
+Author URI: http://vcwebdesign.com/
+Description: This theme was taken from the _s wordpress theme, and is to be used as a framework for building custom themes
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: goldlion
+Domain Path: /languages/
+Tags:
+
+*/
+
+
+@import url("css/original.css");
+
+
+/*link styles*/
+
+a, a:link, a:visited {
+	color: #0E90D2;
+}
+
+a:hover {
+	color: #5EB95E;
+}
+
